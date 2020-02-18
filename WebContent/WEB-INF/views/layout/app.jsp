@@ -14,7 +14,7 @@
     		${param.content}
     		</div>
 			<div id="footer">
-				by Hiroki Nakayama
+
 			</div>
 		</div>
     </body>
