@@ -41,8 +41,6 @@ public class UpdateServlet extends HttpServlet {
 			Message m = em.find(Message.class, (Integer)(request.getSession().getAttribute("message_id")));
 
 			//フォームの内容を各プロパティに上書き
-			String title = request.getParameter("title");
-			m.setTitle(title);
 
 			String content = request.getParameter("content");
 			m.setContent(content);

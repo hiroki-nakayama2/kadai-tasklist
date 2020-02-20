@@ -39,8 +39,6 @@ public class CreateServlet extends HttpServlet {
 
 			Message m = new Message();
 
-			String title = request.getParameter("title");
-			m.setTitle(title);
 
 			String content = request.getParameter("content");
 			m.setContent(content);
